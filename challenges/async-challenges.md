@@ -1,3 +1,5 @@
+# Adding comment to test
+
 <div align="right">
   <a href="/README.md#this-is-a-collection-of-modern-interview-code-challenges-on-javascript-suitable-for" id="home">Home</a>
 </div>
@@ -26,10 +28,12 @@ setTimeout(console.log, 3000, 'Hello, World');
 ```
 
 ###### Notes
+
 Zero or more values that represent any parameters you want to pass to the function when it is run.
 
 ###### References
-- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals
+
+- <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Timeouts_and_intervals>
 
 <br />
 
@@ -73,10 +77,12 @@ const num1 = 1, num2 = 10;
 ```
 
 ###### Notes
+
 In the 2nd solution, recursive setTimeout is used.
 
 ###### References
-- https://javascript.info/settimeout-setinterval
+
+- <https://javascript.info/settimeout-setinterval>
 
 <br />
 
@@ -119,7 +125,8 @@ for (var i = num1; i >= num2; i--) {
 ```
 
 ###### References
-- https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch5.md
+
+- <https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/scope%20%26%20closures/ch5.md>
 
 <br />
 
@@ -162,6 +169,7 @@ setTimeout(() => {
 ```
 
 ###### Notes
+
 The function can also be modified to have completion after which timer can not be started
 
 <br />
@@ -212,11 +220,13 @@ callbackManager([asyncFunc1, asyncFunc2, asyncFunc3]);
 ```
 
 ###### Notes
+
 3 asynchrounous functions are considered here, but the program should work for any number
 
 <br />
 
 ### Q. Execute the given list of asynchronous functions in parallel and return the results as an array to the callback
+
 ```js
 // Example
 function asyncFunc1(callback) {
@@ -263,7 +273,8 @@ function asyncParallel(asyncFuncArr, callback) {
 ```
 
 ###### References
-- https://jsvault.com/async-parallel
+
+- <https://jsvault.com/async-parallel>
 
 <br />
 
@@ -309,10 +320,12 @@ asyncFunc1()
 ```
 
 ###### Notes
+
 If `then` method has a return statement which is a promise then it will be considered for the next promise chain until it settles
 
 ###### References
-- https://javascript.info/promise-chaining
+
+- <https://javascript.info/promise-chaining>
 
 <br />
 
@@ -427,6 +440,7 @@ asyncFuncArr.reduce(async (acc, asyncFunc) => {
 ```
 
 ###### Notes
+
 `Promise.resolve()` is used as the initial value to `reduce`, which resolves the promise immediately,
 
 <br />
@@ -512,10 +526,12 @@ requestManager('https://reqbin.com/echo/get/json', 3).then(
 ```
 
 ###### Notes
+
 `1000 + 1000 * i` is used for delay after 1st unsuccessful attempt to fetch, which increases the delay on every iteration
 
 ###### References
-- https://dev.to/ycmjason/javascript-fetch-retry-upon-failure-3p6g
+
+- <https://dev.to/ycmjason/javascript-fetch-retry-upon-failure-3p6g>
 
 <br />
 
@@ -538,10 +554,12 @@ const rand2 = it.next();
 ```
 
 ###### Notes
+
 Genertor function need not complete its execution
 
 ###### References
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
+
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function>*
 
 <br />
 
